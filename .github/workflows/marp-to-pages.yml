@@ -10,6 +10,7 @@ on:
     - .github/workflows/marp-to-pages.yml
 permissions:
   contents: write
+  pages: write
 jobs:
   build:
     runs-on: ubuntu-22.04
