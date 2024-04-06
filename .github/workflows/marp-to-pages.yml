@@ -40,17 +40,20 @@ jobs:
         env:
           MARP_USER: root:root
 
-      - name: Setup Pages
+      - name: Setup Pages 📖
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload artifact 🔼
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./build/
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages 🚀
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # keeping the step below as an example
+      # to show alternative deployment to the branch
 
       # - name: Deploy production 🚀
       #   if: ${{ github.event_name == 'push' }}
