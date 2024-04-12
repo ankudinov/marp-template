@@ -1,0 +1,33 @@
+{
+    "build": {
+        "dockerfile": "./Dockerfile",
+        "context": "."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // install Marp extension for VScode to build slides
+                "marp-team.marp-vscode",
+                // git essentials
+                "piotrpalarz.vscode-gitignore-generator",
+                "mhutchie.git-graph",
+                "donjayamanne.githistory",
+                // spell checker
+                "streetsidesoftware.code-spell-checker",
+                // excalidraw, drawio and tldraw
+                "pomdtr.excalidraw-editor",
+                "hediet.vscode-drawio",
+                "tldraw-org.tldraw-vscode",
+                // markdown
+                "yzhang.markdown-all-in-one",
+                "bierner.markdown-checkbox",
+                "bierner.markdown-mermaid",
+                "davidanson.vscode-markdownlint",
+                // various tools
+                "mutantdino.resourcemonitor",
+                "bierner.emojisense",
+                "tomoki1207.pdf"
+            ]
+        }
+    }
+}

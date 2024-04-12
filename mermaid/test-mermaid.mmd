@@ -1,0 +1,25 @@
+flowchart TD
+    classDef white stroke:#FFFFFF
+    classDef silver stroke:#C0C0C0
+    classDef gray stroke:#808080
+    classDef black stroke:#000000
+    classDef red stroke:#FF0000
+    classDef maroon stroke:#800000
+    classDef yellow stroke:#FFFF00
+    classDef olive stroke:#808000
+    classDef lime stroke:#00FF00
+    classDef green stroke:#008000
+    classDef aqua stroke:#00FFFF
+    classDef teal stroke:#008080
+    classDef blue stroke:#0000FF
+    classDef navy stroke:#000080
+    classDef fuchsia stroke:#FF00FF
+    classDef purple stroke:#800080
+    s1(spine1):::silver
+    s2(spine2):::silver
+    l1(leaf1):::red
+    l2(leaf2):::red
+    s1--e1-e1---l1
+    s1--e2-e1---l2
+    s2--e1-e2---l1
+    s2--e2-e2---l2
